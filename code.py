@@ -1,3 +1,5 @@
+#BUGS to fix: If the user does not introduce an int after the first input the program brakes. I got to figure how to solve it.
+
 import random
 selection_options = ["rock",
                      "paper",
