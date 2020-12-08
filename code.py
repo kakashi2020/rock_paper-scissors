@@ -22,7 +22,7 @@ enemy_points = 0
 
 input("Press ENTER to play!")
 enemy_pick = random.choice(selection_options)
-goal = int(input("To how many points would you like to play? (e.g. 1, 2, 3, ... ) "))
+goal = get_integer("To how many points would you like to play? (e.g. 1, 2, 3, ... ) "))
 print()
 my_pick = input("Please choose Rock, Paper or Scissors, to play against the computer ")
 print()
