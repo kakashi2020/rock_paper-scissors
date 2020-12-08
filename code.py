@@ -1,6 +1,17 @@
-#BUGS to fix: If the user does not introduce an int after the first input the program brakes. I got to figure how to solve it.
+
 
 import random
+
+
+def get_integer(my_input_message):                                  
+    while True:                                                     
+        what_i_write = input(my_input_message)                      
+        if what_i_write.isnumeric():                                
+            return int(what_i_write)                                
+        else:                                                       
+            print("{} is not a valid number".format(what_i_write))  
+            
+            
 selection_options = ["rock",
                      "paper",
                      "scissors"
